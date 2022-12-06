@@ -1,0 +1,67 @@
+:root {
+  --color1: #303030;
+  --color2: rgb(241, 33, 78);
+}
+header,section {
+  padding: 100px 0;
+}
+header {
+  padding: 200px 0;
+}
+header {
+  background: url(../img/main.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+.btn-itd {
+  display: block;
+  max-width: 200px;
+  margin: 50px auto 0px;
+  padding: 8px 30px;
+  color: var(--bs-white);
+  background-color: var(--color2);
+  }
+.btn-itd:hover {
+  color: var(--bs-white);
+  background-color: var(--bs-teal);
+  transition: all 0.2 ease;
+}
+.about, .accordion__my {
+  background-color: #eee;
+}
+i {
+  font-size: 25px;
+  color: var(--color2)
+}
+.circle {
+  margin: 0 auto 15px;
+  width: 65px;
+  height: 65px;
+  border: 3px solid var(--color2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.forwhom h5 {
+  padding: 15px;
+  border: 3px solid var(--color2);
+  min-width: 250px;
+  text-align: center !important;
+  }
+ .footer__my {
+  background-color: #eee;
+  padding: 30px auto;
+ }
+ .contact__my {
+  margin: 50px auto 20px;
+ }
+ .btn__my {
+  margin: 0 10px 20px;
+ }
